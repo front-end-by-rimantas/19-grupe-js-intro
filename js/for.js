@@ -61,3 +61,32 @@ for (let i = 0; i < miestai.length; i++) {
 
 console.log('------------');
 
+/*
+Isvardinti saraso narius is galo.
+*/
+
+const abc = ['a', 'b', 'c', 'd', 'e', 'f'];
+
+for (let i = abc.length - 1; i >= 0; i--) {
+    console.log(abc[i]);
+}
+
+console.log('-------------');
+console.clear();
+
+// const text = 'dodekahedronas';
+const text = 'ottoman';
+
+for (let i = 0; i < text.length; i++) {
+    console.log(text[i]);
+}
+
+console.log(text.length);
+
+console.log('-------------');
+
+/*
+Duodamas zodis ir is jo reikia isrinkti kas antra raide ir isspausdinti kas gaunasi.
+pvz.: abcdef -> bdf
+*/
+
